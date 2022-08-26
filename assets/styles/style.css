@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 95%;
+    text-align: center;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(to right, rgba(57, 106, 252, 0.5), rgba(253, 198, 18, 0.568)),  url(/assets/image/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*Jumbroton*/
+
+.jumbroton {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.jumbroton .box-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbroton .box-navigation .box {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+
+}
+
+.jumbroton .box-navigation nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.jumbroton .box-navigation nav ul li {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.jumbroton .box-navigation nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all .4s ease;
+}
+
+.jumbroton .box-navigation nav ul li a:hover {
+    color: rgb(237, 87, 87);
+
+}
+
+.jumbroton .box-navigation .box:nth-child(3) {
+    display: none;
+}
+
+/*End Jumbroton*/
+
+/*style hero*/
+header .hero {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+header .hero h1 {
+    color: white; 
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+/*end style hero*/
+
+
+/* Kenalan */
+
+.kenalan {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle at top left, #ffea00, #ff8800);
+}
+
+.kenalan .box-kenalan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.kenalan .box-kenalan .box-first {
+    padding-right: 35px;
+    
+}
+
+.kenalan .box-kenalan .box-first img {
+    width: 350px;
+}
+
+.kenalan .box-kenalan .box-second h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.kenalan .box-kenalan .box-second p {
+    line-height: 1.5;
+}
+
+/* Kenalan */
+
+/* varian */
+.varian {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    
+}
+
+.varian .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.varian .box-titlevarian h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.varian .box-varian {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.varian .box-varian .box-first {
+    text-align: center;
+    
+}  
+
+.varian .box-varian img {
+    width: 90%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.varian .box-varian button {
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f6bd60;
+}
+
+.varian .box-varian button:hover {
+    width: 55%;
+    background-color: #ff5900;
+}
+/* End varian */
+
+/* reseller Style */
+.reseller {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle at top left, #ffea00, #ff9900);
+}
+
+.reseller .box-reseller {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.reseller .box-reseller .first img {
+    width: 400px;
+}
+
+.reseller .box-reseller .second ul {
+    font-size: 20px;
+    text-align: center;
+}
+
+.reseller .box-reseller .second ul li {
+    list-style-type: none;
+    padding: 8px 0px;
+}
+
+.reseller .box-reseller .second ul li i {
+    margin-right: 10px;
+    color: #ff5900;
+}
+/* End reseller Style */
+
+/* style gallery */
+.gallery {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.gallery .box-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.gallery .box-gallery img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+}
+/* style gallery */
+
+/* Aside Contact */
+.profile {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle at top left, #ffea00, #ff9900);
+}
+
+.profile .box-buy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.profile .box-profiles {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+
+}
+
+.profile .box-profile .profile-content a {
+    display: inline-block;
+    transition: all ease 0.3s;
+}
+
+.profile .box-profile {
+    background: rgba(255, 255, 255, 0.596);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    position: relative;
+    overflow: hidden;
+}
+
+.profile .box-profile .profile-picture {
+    margin-top: 20px;
+}
+
+.profile .box-profile .profile-picture img {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    width: 100px;
+    height: 100px;
+}
+
+.profile .box-profile .profile-content {
+    padding: 10px 20px 20px;
+    text-align: center;
+}
+
+.profile .box-profile .profile-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.profile .box-profile .profile-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #ff7300;
+}
+
+.profile .box-profile .profile-content .social a {
+    color: #ff7300;
+    margin: 0 15px;
+    font-size: 1.6em;
+    transform: translateY(4px);
+    text-decoration: none;
+}
+
+.profile .box-profile .profile-content .social a:hover {
+    color: #ffc74d;
+    transform: translateY(0);
+}
+
+.profile .box-contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.profile .box-contact input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+  }
+
+  .profile .box-contact label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .profile .box-contact select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+/* End Aside Contact */
+
+/* footer */
+footer {
+    background-color: #f1d203;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+/* end footer */
+
+/* Media Screen jumbrorton */
+
+@media screen and (max-width: 900px) {
+    .jumbroton .box-navigation nav {
+        display: flex;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        background-color: white; opacity: 0.5;
+        width: 250px;
+        border-radius: 10px;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    .jumbroton .box-navigation .menu-navigation.menu-active {
+        opacity: 1;
+        top: 100px;
+    }
+
+    .jumbroton .box-navigation nav ul {
+        flex-direction: column;
+    }
+
+    .jumbroton .box-navigation nav ul li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .jumbroton .box-navigation nav ul li a {
+        color: black;
+    }
+
+    .jumbroton .box-navigation .box:nth-child(3) {
+        display: flex;
+    }
+
+    header .hero h1 {
+        font-size: 45px;
+
+    }
+
+    .kenalan {
+        height: 130vh;
+    }
+
+    .kenalan .box-kenalan {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kenalan .box-kenalan .box-second {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .kenalan .box-kenalan .box-first {
+        width: 350px;
+
+    }
+    
+
+    .kenalan .box-kenalan .box-second h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .kenalan .box-kenalan .box-second p {
+        font-size: 15px;
+    }
+
+    .varian {
+        height: 100%;
+        padding: 30px 0 30px 30px;
+    }
+
+    .varian .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .varian .box-varian {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .varian .box-varian img {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .reseller {
+        height: 100%;
+        padding: 30px 0 30px 30px;
+    }
+
+
+    .reseller .box-reseller {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reseller .box-reseller .first img {
+        width: 350px;
+    }
+
+    .reseller .box-reseller .second {
+        margin-top: 20px;
+    }
+
+    .gallery {
+        height: 100%;
+        padding: 30px 0 30px 0;
+    }
+
+    .profile {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .profile .box-buy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .profile .box-buy .box-profiles {
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+
+    .profile .box-contact {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .kenalan .box-kenalan .box-first img {
+        width: 300px;
+    }
+
+    .varian {
+        height: 100%;
+    }
+
+    .reseller .box-reseller .first img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .kenalan .box-kenalan .box-first img {
+        width: 200px;
+    }
+
+    .reseller .box-reseller .first img {
+        width: 200px;
+    }
+}
+
+/*End Media Screen */
+
+.jumbroton .box-navigation .box:nth-child(3) {
+    font-size: 25px;
+}
+
