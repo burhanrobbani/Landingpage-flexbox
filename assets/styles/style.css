@@ -13,7 +13,7 @@
 
 header {
     height: 100vh;
-    background: linear-gradient(to right, rgba(57, 106, 252, 0.5), rgba(253, 198, 18, 0.568)),  url(/assets/image/header.jpg);
+    background: linear-gradient(to right, rgba(33, 33, 0, 0.5), rgba(120, 76, 0, 0.568)),  url(/assets/image/header.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,32 +39,10 @@ header {
     font-size: 20px;
     color: white;
     margin: 20px;
-
 }
 
-.jumbroton .box-navigation nav ul {
-    display: flex;
-    flex-direction: row;
-}
-
-.jumbroton .box-navigation nav ul li {
-    list-style-type: none;
-    margin-left: 30px;
-}
-
-.jumbroton .box-navigation nav ul li a {
-    text-decoration: none;
-    color: white;
-    transition: all .4s ease;
-}
-
-.jumbroton .box-navigation nav ul li a:hover {
-    color: rgb(237, 87, 87);
-
-}
-
-.jumbroton .box-navigation .box:nth-child(3) {
-    display: none;
+.jumbroton .box-navigation .menu-bar i {
+    font-size: 30px;
 }
 
 /*End Jumbroton*/
